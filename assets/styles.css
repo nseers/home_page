@@ -1,0 +1,54 @@
+body {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    max-width: 1000px;
+}
+
+p {
+    clear: both;
+}
+
+h4 {
+    clear: both;
+}
+
+img {
+    max-height: 600px;
+    float: right;
+}
+
+#about-img {
+    max-height: 500px;
+    float: right;
+}
+
+.text-overlay,
+.text-overlay2,
+.about-overlay {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    background-color: rgb(255, 255, 255);
+    font: raleway, sans-serif;
+    font-weight: bold;
+    padding-right: 25px;
+}
+
+.text-overlay2 {
+    top: 200px;
+}
+
+.about-overlay {
+    top: 300px;
+}
+
+#about-text {
+    top: 50px;
+}
+
+.resume-overlay {
+    top: 300px;
+}
